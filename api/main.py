@@ -7,7 +7,6 @@ from fastapi.responses import JSONResponse
 from typing import Optional
 
 app = FastAPI()
-
 # ── Food Database ──
 # Load foods database dynamically from JSON file
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
